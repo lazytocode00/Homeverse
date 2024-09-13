@@ -1,17 +1,28 @@
-# Linear-Regression-Model-for-House-Price-Prediction
+# House Price Prediction Website
 
- We will be analyzing a house price predication dataset for finding out price of house on different parameters. we will do Exploratory Data Analysis, split the training and testing data, Model Evaluation and Predictions. 
+Welcome to the House Price Prediction Website! This project showcases a web application that predicts house prices using a machine learning model. The website is built with HTML, CSS, and JavaScript for the frontend, while Flask is used for the backend to handle predictions.
 
-### Problem Statement
-A real state agents want the help to predict the house price for regions in the USA. He gave you the dataset to work on and you decided to use Linear Regressioon Model. Create a model which will help him to estimate of what the house would sell for.
+## Table of Contents
 
-Dataset contains 7 columns and 5000 rows with CSV extension. The data contains the following columns :
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-- 'Avg. Area Income': Avg. Income of householder of the city house is located in.
-- 'Avg. Area House Age': Avg. Age of Houses in same city.
-- 'Avg. Area Number of Rooms': Avg. Number of Rooms for Houses in same city.
-- 'Avg. Area Number of Bedrooms': Avg. Number of Bedrooms for Houses in same city.
-- 'Area Population': Population of city.
-- 'Price': Price that the house sold at.
-- 'Address': Address of the houses.
+## Features
 
+- **Interactive User Interface**: Built using HTML, CSS, and JavaScript to provide a seamless user experience.
+- **House Price Prediction**: Leverages a machine learning model to predict house prices based on input features.
+- **Backend API**: Developed with Flask to handle requests and return predictions.
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/lazytocode00/house-price-prediction-website.git
+   cd house-price-prediction-website
